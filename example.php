@@ -1,6 +1,6 @@
 <?php
 
-	define("GIT_REPO_PATH", "/path/to/your/repo"); //set the path to your repo here
+	define("GIT_REPO_PATH", "/crakeron/Vselcalculator"); //set the path to your repo here
 
 	$repo_dir = getenv('GIT_DIR');
 	if (empty($repo_dir)) {
